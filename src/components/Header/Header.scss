@@ -1,0 +1,18 @@
+@import '../../styles/variables';
+
+.header {
+    padding-top: 2.5rem; 
+    padding-bottom: 2.5rem;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .header__logo {
+            font-weight: 400;
+            font-size: clamp(1.5rem, 1.4167rem + 0.4167vw, 1.75rem);
+            &:hover {
+                color: $brand-accent;
+            }
+        }
+    }
+}

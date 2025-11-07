@@ -1,0 +1,17 @@
+@import '../../styles/variables';
+
+.footer {
+    padding-top: 1rem; 
+    padding-bottom: 1rem;
+    @media (max-width: $breakpoint-tablet) {
+        padding-top: 2.5rem; 
+        padding-bottom: 2.5rem;
+    }
+    .container {
+        text-align: right;
+    }
+    .footer__copyright {
+        font-weight: 100;
+        font-size: clamp(0.875rem, 0.8333rem + 0.2083vw, 1rem);
+    }
+}
