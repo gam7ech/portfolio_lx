@@ -41,6 +41,12 @@ function Main() {
                         className="main__social-link">
                         <img src={youtubeIcon} alt="YouTube" className="main__social-icon" />
                     </a>
+                    <a href="https://www.tiktok.com/@gam7lx" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="main__social-link">
+                        <img src={tiktokIcon} alt="TikTok" className="main__social-icon" />
+                    </a>
                 </div>
             </div>
         </main>
