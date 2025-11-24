@@ -1,5 +1,5 @@
 import './Main.scss';
-import { telegramIcon, twitchIcon, instagramIcon, youtubeIcon } from '../../assets/images/icons';
+import { telegramIcon, twitchIcon, instagramIcon, youtubeIcon, tiktokIcon } from '../../assets/images/icons';
 
 function Main() {
     return (
